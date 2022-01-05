@@ -104,6 +104,9 @@ footer {
     justify-content: space-between;
     padding: 0;
   }
+  .header .mode__item {
+    all: unset !important;
+  }
   .header .logo {
     margin: 0 0 0 1em;
     font: size 1.9rem !important;
@@ -153,6 +156,11 @@ footer {
   transform: translateX(-100%);
   transform-origin: left;
   transition: 300ms ease-in;
+}
+.nav .mode__item {
+  position: absolute;
+  top: 2em;
+  left: 2em;
 }
 .nav .logo {
   font-size: 4rem;
