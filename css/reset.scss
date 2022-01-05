@@ -1,0 +1,53 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+
+html{
+  scroll-behavior: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    margin:0;
+    transition:all 350ms ease-in;
+}
+section{
+    transition:all 350ms ease-in;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+img{
+    max-width:100%;
+}
+.container{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+.split{
+    display:flex;
+}
+
+footer{
+    margin-top:auto;
+}
