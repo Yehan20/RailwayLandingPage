@@ -105,6 +105,7 @@
     transform:translateX(-100%);
     transform-origin:left;
     transition:300ms ease-in;
+    overflow-y: scroll;
 
     .mode__item{
         position: absolute;

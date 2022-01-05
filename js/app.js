@@ -129,7 +129,7 @@ toggleBtn.addEventListener('click',()=>{
 //scrolling event listeners
 window.addEventListener("scroll",(e)=>{
 
-   console.log(window.scrollY);
+
 
    if(window.scrollY>20){
       document.querySelector('.header').style.background="#132968";
