@@ -6,11 +6,20 @@ const featurs=document.querySelectorAll('.function');
 const cards= document.querySelectorAll('.card__content');
 const gif=document.querySelector('.gif')
 const input=document.querySelector('.news__input');
-const loader=document.querySelector('.loader');
+// const loader=document.querySelector('.loader');
 const links =document.querySelectorAll('.list__link');
 const darkMode=document.querySelector('#mode');
 const sections = document.querySelectorAll('section')
 const arrowUp = document.querySelector('.arrow__up');
+
+
+//loader animation
+const loder= document.querySelector('.full');
+document.body.style.overflowY='hidden';
+setTimeout(()=>{
+   loder.style.display='none';
+   document.body.style.overflowY='auto';
+},1200)
 
 
 //dark mode//
@@ -67,9 +76,9 @@ links.forEach(link=>{
 
 
 // gif timer 
-setTimeout(()=>{
-   loader.style.display='none';
-},3000);
+// setTimeout(()=>{
+//    loader.style.display='none';
+// },3000);
 
 
 // scroll properties
